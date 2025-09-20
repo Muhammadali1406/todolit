@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base{
+  #root{
+    @apply w-screen min-h-screen flex flex-col bg-blue-50
+  }
+}
