@@ -8,7 +8,7 @@ function Todo({todos}) {
     settodo(newtodos)
     
    }
-   return <ul className='flex flex-col gap-4 justify-center'>
+   return <ul className='flex flex-col gap-4 items-center'>
     {todo.map(el=>{
         return <li className='w-full bg-amber-50 rounded-[12px] max-w-[800px] p-3 text-2xl font-bold text-blue-900 flex justify-between' key={el.id}>
             <h3>{el.todo}</h3>
